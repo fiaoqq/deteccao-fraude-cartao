@@ -52,7 +52,6 @@ uma fraude costuma ser mais caro que bloquear uma transação legítima.
   precisão, o que justifica ajustar o limiar de decisão (seção 4).
 
 ![Curvas ROC e Precision-Recall](roc_pr.png)
-![SHAP Summary](shap.png)
 
 ## 4. Limiar de decisão
 
@@ -83,7 +82,7 @@ gráfico mostra que:
 - Valores **altos** de V4 e V11 também empurram para **fraude**.
 - `log_amount` e `Amount_scaled` aparecem com peso menor, mas ainda relevante.
 
-> Cole aqui o `shap.summary_plot` gerado no notebook.
+![SHAP Summary](shap.png)
 
 ## 6. O que mudei em relação ao que a Expert fez
 
