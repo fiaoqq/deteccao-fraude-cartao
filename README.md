@@ -51,7 +51,8 @@ uma fraude costuma ser mais caro que bloquear uma transação legítima.
 - Nenhum modelo "ganha" em tudo: existe um trade-off claro entre recall e
   precisão, o que justifica ajustar o limiar de decisão (seção 4).
 
-> Cole aqui as figuras das curvas ROC e Precision-Recall geradas no notebook.
+![Curvas ROC e Precision-Recall](roc_pr.png)
+![SHAP Summary](shap.png)
 
 ## 4. Limiar de decisão
 
